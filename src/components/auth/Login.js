@@ -44,7 +44,7 @@ const Login = () => {
         <button>
           {auth.loginStatus === "pending" ? "Submitting..." : "Login"}
         </button>
-        {auth.loginStatus === "rejected" ? <p>{auth.loginError}</p> : null}
+        {auth.loginStatus === "rejected" ? <p>error</p> : null}
       </StyledForm>
     </>
   );
